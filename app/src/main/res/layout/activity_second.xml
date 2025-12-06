@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    android:gravity="center_horizontal"
+    tools:context=".SecondActivity">
+
+    <TextView
+        android:id="@+id/choice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="@string/choose"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/formula"
+        android:layout_width="345dp"
+        android:layout_height="312dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitCenter" />
+
+    <Spinner
+        android:id="@+id/shape"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/choose"
+        android:textSize="18sp"
+        android:background="@drawable/input"/>
+
+    <EditText
+        android:id="@+id/editTextValue"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="@string/input_data"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:background="@drawable/input"/>
+    <EditText
+        android:id="@+id/inputB"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:hint="Введите сторону b"
+        android:inputType="numberDecimal"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:background="@drawable/input"/>
+    <Button
+        android:id="@+id/btnCount"
+        android:layout_width="330dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="55dp"
+        android:background="@drawable/btn"
+        android:onClick="Count"
+        android:text="@string/count"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

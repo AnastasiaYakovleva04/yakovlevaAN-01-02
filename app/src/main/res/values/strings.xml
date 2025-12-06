@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Геометрические фигуры</string>
+    <string name="start">Начать</string>
+    <string name="choose">Выберите фигуру</string>
+    <string name="input_data">Введите данные для расчета</string>
+    <string name="count">Выполнить расчет</string>
+    <string name="inputB">b</string>
+    <string name="inputA">a</string>
+    <string-array name="shapes">
+        <item>Круг</item>
+        <item>Треугольник</item>
+    </string-array>
+</resources>
